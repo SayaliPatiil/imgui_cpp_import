@@ -47,6 +47,12 @@ Index of this file:
 #if !defined(alloca)
 #define alloca _alloca  // for clang with MS Codegen
 #endif
+
+
+
+
+
+
 #else
 #include <stdlib.h>     // alloca
 #endif
